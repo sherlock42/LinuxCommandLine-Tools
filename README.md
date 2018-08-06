@@ -171,4 +171,5 @@ export PS1="I am developer >> " will change the styling of your command prompt t
 For example, many commands we've learned are scripts stored in the /bin directory. 
 > This is the script that is executed when you type the pwd command. /bin/pwd.
 <br />
+
 > This is the script that is executed when you type the ls command.  /bin/ls
