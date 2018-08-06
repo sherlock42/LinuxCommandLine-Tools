@@ -63,13 +63,13 @@
        $ mv add.c interger_add.c 
     ```
     renaming add.c to integer_add.c
-    ![GitHub Logo](screenshots/mv rename.PNG)
+![GitHub Logo](screenshots/mv rename.PNG)
     
     ``` terminal
        $ mv add.c programs/
     ```
     moving add.c file to programs directory
-    ![GitHub Logo](screenshots/mv move.PNG)
+![GitHub Logo](screenshots/mv move.PNG)
     
     
 1. **cat command**: *cat* stands for 'concatenate and print files'. It displays all the content of a file.
@@ -151,7 +151,7 @@ bash_profile is the name of file used to store environment settings. It is commo
    $ cat ~/.bash_profile
    $ nano ~/.bash_profile
 ```
-    ![GitHub Logo](/screenshots/bash_profile.PNG)
+![GitHub Logo](/screenshots/bash_profile.PNG)
     
    1. The ~ represents the user's home directory.
    1. The . indicates that this file hidden file. A dot is used for hidden file
@@ -180,7 +180,7 @@ I frequently use second one to reach my desktop easily by only pressing f
    $ alias hide='defaults write com.apple.finder CreateDesktop false; killall Finder'
    $ alias show='defaults write com.apple.finder CreateDesktop true; killall Finder'
 ```
-    ![GitHub Logo](/screenshots/alias.PNG)
+![GitHub Logo](/screenshots/alias.PNG)
     
    * Using second command you can hide all your Desktop folders and files and no body will be able to see your stuff. You can undo this using third command. But this is only valid for Apple Mac users.
    **Note:** 
@@ -200,7 +200,7 @@ programs.
 ``` terminal
    $ env
 ```
-    ![GitHub Logo](/screenshots/env.PNG)
+![GitHub Logo](/screenshots/env.PNG)
     
 You can also try
 ``` terminal
@@ -217,8 +217,8 @@ Some of the environment variables are given below, rest you can explore on your 
    $ export USER="Farhan"
    $ echo $USER
 ```
-    ![GitHub Logo](/screenshots/user.PNG)
-    
+![GitHub Logo](/screenshots/user.PNG] 
+
    * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  a way to make the variable persist across programs.
    * At the command line, the command echo $USER prints the value of the variable. **Note that $ is always used when we are using an environmental**. Here, the command echo $USER prints the name set for the variable.
    
@@ -233,7 +233,6 @@ Some of the environment variables are given below, rest you can explore on your 
 export PS1="I am developer >> " will change the styling of your command prompt to this.
     ![GitHub Logo](/screenshots/ps1.PNG)
     
-<br />
 
 3. **HOME variable**: The HOME variable is an environment variable that displays the path of the home directory.
 ``` terminal
@@ -241,7 +240,6 @@ export PS1="I am developer >> " will change the styling of your command prompt t
 ```
     ![GitHub Logo](/screenshots/home.PNG)
     
-<br />
 
 4. **PATH variable**: PATH is an environment variable that stores a list of directories separated by colons(:). Each directory contains scripts for the command line to execute. The PATH variable simply lists those directories that contain scripts.
 ``` terminal
