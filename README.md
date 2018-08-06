@@ -137,6 +137,7 @@ This will print the PATH environment vairable from the environment using grep co
 
 #### Environment Variables
 Environment variables are variables that can be used across commands and programs and hold information about the environment.
+Some of the environment variables are given below, rest you can explore on your own.
 
 1. **USER variable**: export USER="Farhan" sets the environment variable USER to a name "Farhan". Usually the USER variable is set to the name of the Computer's owner.
 ``` terminal
@@ -170,5 +171,4 @@ export PS1="I am developer >> " will change the styling of your command prompt t
 For example, many commands we've learned are scripts stored in the /bin directory. 
 > This is the script that is executed when you type the pwd command. /bin/pwd.
 <br />
-
 > This is the script that is executed when you type the ls command.  /bin/ls
