@@ -25,6 +25,7 @@
     ``` terminal
        $ pwd
     ```
+    ![GitHub Logo](/screenshots/pwd.PNG)
 
 1. **ls command**: *ls* stands for 'list directory content'. Display all the files and directories in the current directory.
 **-**: This is called as flag, we can add more specifications and properties to out commands using these flags like in case of *ls*. e.g.,
