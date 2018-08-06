@@ -134,3 +134,10 @@ You can also try
    $ env | grep PATH
 ```
 This will print the PATH environment vairable from the environment using grep command. I hope now you are able to use these commands simultaneously. *Congratulate yourself!!*.
+
+#### Environment Variables
+Environment variables are variables that can be used across commands and programs and hold information about the environment.
+
+1. **USER variable**: export USER="Farhan" sets the environment variable USER to a name "Farhan". Usually the USER variable is set to the name of the Computer's owner.
+   * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  away to make the variable persist across programs.
+   * At the command line, the command echo $USER prints the value of the variable. Note that $ is always used when returning a variable's value. Here, the command echo $USER prints the name set for the variable.
