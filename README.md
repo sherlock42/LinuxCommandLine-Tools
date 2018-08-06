@@ -94,7 +94,7 @@
        $ sort names.txt | uniq > sorted_names.txt
     ```
 
-1. **grep command**: grep stands for "global regular expression print". It searches in a files for lines that match a pattern and returns the results. It is also case sensitive. Here, grep searches for "stdio" in code.c and print all lines which contains it. But it will not print the consecutive "stdio" if any.
+1. **grep command**: grep stands for "global regular expression print". It searches in a files for lines that match a pattern and returns the results. It is also case sensitive. Here, grep searches for "cout" in code.cpp file and print all lines which contains it.
     ``` terminal
        $ grep cout code.cpp
     ```
