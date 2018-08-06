@@ -31,118 +31,100 @@
     ``` terminal
        $ ls -a -l -h -r 
     ```
-       * This will print all the files and directories in the current directory but -a flag will help us to display the hidden  files and directories, -l helps us to show detailed format, -r shows in reverse order and -h for units of memory > B for Bytes etc.
+    * This will print all the files and directories in the current directory but -a flag will help us to display the hidden  files and directories, -l helps us to show detailed format, -r shows in reverse order and -h for units of memory > B for Bytes etc.
 
        *  **You can also do like:**
     ``` terminal
        $ ls -alhr
     ```
-<br />
-
 
 1. **cd command**: cd stands for 'change directory' and helps us to change the directory.
-``` terminal
-   $ cd games/
-```
-<br />
+    ``` terminal
+       $ cd games/
+    ```
 
 1. **clear command**: clear is used to clear the console screen
-``` terminal
-   $ clear
-```
-<br />
+    ``` terminal
+       $ clear
+    ```
 
 1. **cp command**: *cp* is used to copy single or multiple files in current or another directory.
-``` terminal
-   $ cp add.c programs/
-```
-add.c file will be copied to programs directory which is present in current directory.
-<br />
+    ``` terminal
+       $ cp add.c programs/
+    ```
+    add.c file will be copied to programs directory which is present in current directory.
 
 1. **mv command**: *mv* is used to move or rename single or multiple files.
-``` terminal
-   $ mv add.c interger_add.c 
-```
-renaming add.c to integer_add.c
-``` terminal
-   $ mv add.c programs/
-```
-moving add.c file to programs directory
-
-<br />
+    ``` terminal
+       $ mv add.c interger_add.c 
+    ```
+    renaming add.c to integer_add.c
+    ``` terminal
+       $ mv add.c programs/
+    ```
+    moving add.c file to programs directory
 
 1. **cat command**: *cat* stands for 'concatenate and print files'. It displays all the content of a file.
-``` terminal
-   $ cat add.c
-```
-It can be also used for copying and creating a new file and if the file exists and still we are using cat command to copy content then the content of the new file will be deleted and the copied content will be there. Below if the new_add.c exists before then it's content will be deleted and it'll have the copied content of add.c file.
-``` terminal
-   $ cat add.c > new_add.c
-```
-**If you want contents of both files then use >> operator instead of >**
-
-<br />
+    ``` terminal
+       $ cat add.c
+    ```
+    It can be also used for copying and creating a new file and if the file exists and still we are using cat command to copy content then the content of the new file will be deleted and the copied content will be there. Below if the new_add.c exists before then it's content will be deleted and it'll have the copied content of add.c file.
+    ``` terminal
+       $ cat add.c > new_add.c
+    ```
+    **If you want contents of both files then use >> operator instead of >**
 
 1. **wc command**: wc stands for words, character, and it prints the number of lines, words and characters and file name of a file.
-``` terminal
-   $ wc script.python
-```
-
-<br />
+    ``` terminal
+       $ wc script.python
+    ```
 
 1. **sort command**: sorts the content of a file in alphabetical order.
-``` terminal
-   $ sort names.txt
-```
-
-<br />
+    ``` terminal
+       $ sort names.txt
+    ```
 
 1. **Pipe (|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
-``` terminal
-   $ env | grep PATH
-```
-<br />
+    ``` terminal
+       $ env | grep PATH
+    ```
 
 1. **uniq command**: uniq stands for "unique" and filters out only adjacent, duplicate lines in a file and hence it will not remove those repeating lines which are not adjacent and are coming after some lines so to overcome this we can first sort the lines and then use the uniq command if we don’t want even a single line repeated.
-``` terminal
-   $ sort names.txt | uniq > sorted_names.txt
-```
-
-<br />
+    ``` terminal
+       $ sort names.txt | uniq > sorted_names.txt
+    ```
 
 1. **grep command**: grep stands for "global regular expression print". It searches in a files for lines that match a pattern and returns the results. It is also case sensitive. Here, grep searches for "stdio" in code.c and print all lines which contains it. But it will not print the consecutive "stdio" if any.
-``` terminal
-   $ grep cout code.cpp
-```
-**Tip:** *grep -i flag will remove the case sensitivity of the pattern being searched.*
-<br />
+    ``` terminal
+       $ grep cout code.cpp
+    ```
+    **Tip:** *grep -i flag will remove the case sensitivity of the pattern being searched.*
 
 1. **sed command**: sed stands for "stream editor". It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to "find and replace".
-<br />
+    <br />
 
-**Let's look at the expression 's/snow/rain/':**
-   * s: stands for "substitution". It is always used when using sed for substitution.
-   * snow: the search string, the text to find.
-   * rain: the replacement string, the text to add in place.
-``` terminal
-   $ sed 's/snow/rain/' forests.txt
-```
-but note one thing it will only replace the first snow word with rain if you want to do it in the whole file then you have to use 
-``` terminal
-   $ sed 's/snow/rain/g' forests.txt
-```
-<br />
+    **Let's look at the expression 's/snow/rain/':**
+       * s: stands for "substitution". It is always used when using sed for substitution.
+       * snow: the search string, the text to find.
+       * rain: the replacement string, the text to add in place.
+    ``` terminal
+       $ sed 's/snow/rain/' forests.txt
+    ```
+    but note one thing it will only replace the first snow word with rain if you want to do it in the whole file then you have to use 
+    ``` terminal
+       $ sed 's/snow/rain/g' forests.txt
+    ```
 
 1. **nano command**: nano is a command line text editor. It works just like a desktop text editor like TextEdit or Notepad, except that it is accessible from the command line and only accepts keyboard input. It can edit or create a new file for you.
-``` terminal
-   $ nano hello_world.js
-```
-   1. Ctrl + O, saves a file, O stands for output
-   2. Ctrl + X, exits the nano program, X stands for exit
-   3. Ctrl + G, opens a help menu
-<br />
-
-**Note:** *Similarly, there is vim which can be accessed by vi command but it is operated differently*
+    ``` terminal
+       $ nano hello_world.js
+    ```
+       1. Ctrl + O, saves a file, O stands for output
+       2. Ctrl + X, exits the nano program, X stands for exit
+       3. Ctrl + G, opens a help menu
+    <br />
+    
+    **Note:** *Similarly, there is vim which can be accessed by vi command but it is operated differently*
 
 <br />
 
