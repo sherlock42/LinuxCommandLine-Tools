@@ -85,32 +85,32 @@
     ``` terminal
        $ wc script.py
     ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/wx.PNG)
     
 1. **sort command**: sorts the content of a file in alphabetical order.
     ``` terminal
        $ sort names.txt
     ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/sort.PNG)
     
 1. **Pipe (|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
     ``` terminal
        $ env | grep PATH
     ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/pipe.PNG)
     
 1. **uniq command**: uniq stands for "unique" and filters out only adjacent, duplicate lines in a file and hence it will not remove those repeating lines which are not adjacent and are coming after some lines so to overcome this we can first sort the lines and then use the uniq command if we don’t want even a single line repeated.
     ``` terminal
        $ sort names.txt | uniq > sorted_names.txt
     ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/uniq.PNG)
     
 1. **grep command**: grep stands for "global regular expression print". It searches in a files for lines that match a pattern and returns the results. It is also case sensitive. Here, grep searches for "cout" in code.cpp file and print all lines which contains it.
     ``` terminal
        $ grep cout code.cpp
     ```
     **Tip:** *grep -i flag will remove the case sensitivity of the pattern being searched.*
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/grep.PNG)
     
 1. **sed command**: sed stands for "stream editor". It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to "find and replace".
     <br />
@@ -128,7 +128,7 @@
         ``` terminal
            $ sed 's/snow/rain/g' forests.txt
         ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/sed.PNG)
     
 1. **nano command**: nano is a command line text editor. It works just like a desktop text editor like TextEdit or Notepad, except that it is accessible from the command line and only accepts keyboard input. It can edit or create a new file for you.
     ``` terminal
@@ -137,7 +137,6 @@
        1. Ctrl + O, saves a file, O stands for output
        2. Ctrl + X, exits the nano program, X stands for exit
        3. Ctrl + G, opens a help menu
-    ![GitHub Logo](/screenshots/pwd.PNG)
     <br />
     
     **Note:** *Similarly, there is vim which can be accessed by vi command but it is operated differently*
@@ -150,7 +149,7 @@ bash_profile is the name of file used to store environment settings. It is commo
    $ cat ~/.bash_profile
    $ nano ~/.bash_profile
 ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/bash_profile.PNG)
     
    1. The ~ represents the user's home directory.
    1. The . indicates that this file hidden file. A dot is used for hidden file
@@ -179,7 +178,7 @@ I frequently use second one to reach my desktop easily by only pressing f
    $ alias hide='defaults write com.apple.finder CreateDesktop false; killall Finder'
    $ alias show='defaults write com.apple.finder CreateDesktop true; killall Finder'
 ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/alias.PNG)
    * Using second command you can hide all your Desktop folders and files and no body will be able to see your stuff. You can undo this using third command. But this is only valid for Apple Mac users.
    **Note:** 
    * **alias cls = 'clear' is wrong only cls='clear' will work.**
@@ -198,7 +197,7 @@ programs.
 ``` terminal
    $ env
 ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/env.PNG)
 You can also try
 ``` terminal
    $ env | grep PATH
@@ -214,7 +213,7 @@ Some of the environment variables are given below, rest you can explore on your 
    $ export USER="Farhan"
    $ echo $USER
 ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/user.PNG)
    * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  a way to make the variable persist across programs.
    * At the command line, the command echo $USER prints the value of the variable. **Note that $ is always used when we are using an environmental**. Here, the command echo $USER prints the name set for the variable.
    
@@ -227,14 +226,14 @@ Some of the environment variables are given below, rest you can explore on your 
    I am developer >> ls
 ```
 export PS1="I am developer >> " will change the styling of your command prompt to this.
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/ps1.PNG)
 <br />
 
 3. **HOME variable**: The HOME variable is an environment variable that displays the path of the home directory.
 ``` terminal
    $ echo $HOME
 ```
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/home.PNG)
 <br />
 
 4. **PATH variable**: PATH is an environment variable that stores a list of directories separated by colons(:). Each directory contains scripts for the command line to execute. The PATH variable simply lists those directories that contain scripts.
@@ -246,7 +245,7 @@ For example, many commands we've learned are scripts stored in the /bin director
 <br />
 
 > This is the script that is executed when you type the ls command.  /bin/ls
-    ![GitHub Logo](/screenshots/pwd.PNG)
+    ![GitHub Logo](/screenshots/path.PNG)
 
 ## Some tips
    * You can also use man command to know gain information about any command
