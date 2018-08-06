@@ -36,4 +36,10 @@ This will print all the files and directories in the current directory but -a fl
 <br />
 
 * **Pipe (|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
+``` terminal
+   env | grep PATH
+```
 
+<br />
+
+* **Next COmmand**: fa
