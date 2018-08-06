@@ -134,7 +134,7 @@ but note one thing it will only replace the first snow word with rain if you wan
 ### Bash Profile file
 bash_profile is the name of file used to store environment settings. It is commonly called the "bash profile". When a session starts, it will load the contents of the bash profile before executing commands.
 ``` terminal
-   nano ~/.bash_profile
+   $ nano ~/.bash_profile
 ```
    1. The ~ represents the user's home directory.
    1. The . indicates that this file hidden file. A dot is used for hidden file
@@ -143,12 +143,31 @@ bash_profile is the name of file used to store environment settings. It is commo
    1. The text echo "Welcome, Jane Doe" creates a greeting in the bash profile, which is saved. It tells the command line to echo the string "Welcome, Jane Doe" when a terminal session begins.
    1. The command source ~/.bash_profile activates the changes in ~/.bash_profile for the current session.
 ``` terminal
-   source ~/.bash_profile
+   $ source ~/.bash_profile
 ```
 * Instead of closing the terminal and needing to start a new session, source makes the changes available right away in the session we are in.
+**Note:** *Similarly, there is .bashrc file which is available in some computers. You can use anyone of them just make sure which file dominates.*
 
 <br />
 
+### Aliases
+You can create shortcuts using alias command for long and frequently used commands and then you can use the small keywords instead of writing a long command and of course you can separate multiple commands using semicolons(;) like in second example.
+``` terminal
+   $ alias cls='clear'
+   $ alias f='cd ~/Desktop/'
+```
+I frequently use second one to reach my desktop easily by only pressing f
+``` terminal
+   $ alias hide='defaults write com.apple.finder CreateDesktop false; killall Finder'
+   $ alias show='defaults write com.apple.finder CreateDesktop true; killall Finder'
+```
+   * Using second command you can hide all your Desktop folders and files and no body will be able to see your stuff. You can undo this using third command. But this is only valid for Apple Mac users.
+   **Note:** 
+   * **alias cls = 'clear' is wrong only cls='clear' will work.**
+   * **You can save all your aliases into bash_profile file if you want to make them permanent.**
+
+
+<br />
 
 ### Environment
 Each time we launch the terminal application, it creates a new session. The session immediately loads settings and preferences that make up the command line environment. We can configure the environment to support the commands and programs we create. This enables us to customise greetings and command aliases, and create variables to share across commands and
