@@ -85,7 +85,7 @@
     ``` terminal
        $ wc script.py
     ```
-    ![GitHub Logo](/screenshots/wx.PNG)
+    ![GitHub Logo](/screenshots/wc.PNG)
     
 1. **sort command**: sorts the content of a file in alphabetical order.
     ``` terminal
