@@ -71,3 +71,39 @@ It can be also used for copying and creating a new file and if the file exists a
    cat add.c > new_add.c
 ```
 **If you want contents of both files then use >> operator instead of >**
+
+<br />
+
+* **wc command**: wc stands for words, character, and it prints the number of lines, words and characters and file name of a file.
+``` terminal
+   wc script.python
+```
+
+<br />
+
+* **sort command**: sorts the content of a file in alphabetical order.
+``` terminal
+   sort names.txt
+```
+
+<br />
+
+* **uniq command**: uniq stands for "unique" and filters out only adjacent, duplicate lines in a file and hence it will not remove those repeating lines which are not adjacent and are coming after some lines so to overcome this we can first sort the lines and then use the uniq command if we don’t want even a single line repeated.
+``` terminal
+   sort names.txt | uniq > sorted_names.txt
+```
+
+<br />
+
+* **grep command**: grep stands for "global regular expression print". It searches in a files for lines that match a pattern and returns the results. It is also case sensitive. Here, grep searches for "stdio" in code.c and print all lines which contains it. But it will not print the consecutive "stdio" if any.
+``` terminal
+   grep cout code.cpp
+```
+**Tip:** *grep -i flag will remove the case sensitivity of the pattern being searched.*
+<br />
+
+* **sed command**: sed stands for "stream editor". It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to "find and replace".
+**Let's look at the expression 's/snow/rain/':**
+> s: stands for "substitution". It is always used when using sed for substitution.
+> snow: the search string, the text to find.
+> rain: the replacement string, the text to add in place.
