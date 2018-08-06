@@ -104,6 +104,7 @@ It can be also used for copying and creating a new file and if the file exists a
 
 * **sed command**: sed stands for "stream editor". It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to "find and replace".
 <br />
+
 **Let's look at the expression 's/snow/rain/':**
    * s: stands for "substitution". It is always used when using sed for substitution.
    * snow: the search string, the text to find.
