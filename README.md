@@ -64,13 +64,13 @@
     ```
     renaming add.c to integer_add.c
     
-    ![GitHub Logo](/screenshots/mv rename.PNG)
+    ![GitHub Logo](/screenshots/mv_rename.PNG)
     
     ``` terminal
        $ mv add.c programs/
     ```
     moving add.c file to programs directory
-    ![GitHub Logo](/screenshots/mv move.PNG)
+    ![GitHub Logo](/screenshots/mv_move.PNG)
     
     
 1. **cat command**: *cat* stands for 'concatenate and print files'. It displays all the content of a file.
