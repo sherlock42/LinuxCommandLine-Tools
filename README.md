@@ -77,7 +77,7 @@
 
 1. **wc command**: wc stands for words, character, and it prints the number of lines, words and characters and file name of a file.
     ``` terminal
-       $ wc script.python
+       $ wc script.py
     ```
 
 1. **sort command**: sorts the content of a file in alphabetical order.
