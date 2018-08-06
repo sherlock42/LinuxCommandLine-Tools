@@ -109,3 +109,23 @@ It can be also used for copying and creating a new file and if the file exists a
    * s: stands for "substitution". It is always used when using sed for substitution.
    * snow: the search string, the text to find.
    * rain: the replacement string, the text to add in place.
+``` terminal
+   sed 's/snow/rain/' forests.txt
+```
+but note one thing it will only replace the first snow word with rain if you want to do it in the whole file then you have to use 
+``` terminal
+   sed 's/snow/rain/g' forests.txt
+```
+
+<br />
+
+### Environment
+Each time we launch the terminal application, it creates a new session. The session immediately loads settings and preferences that make up the command line environment. We can configure the environment to support the commands and programs we create. This enables us to customise greetings and command aliases, and create variables to share across commands and
+programs.
+
+<br />
+
+* **env command**: The env command stands for "environment", and returns a list of the environment variables for the current user. Here, the env command returns a number of variables, including PATH, PWD, PS1, and HOME.
+``` terminal
+   env
+```
