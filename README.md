@@ -268,4 +268,4 @@ For example, many commands we've learned are scripts stored in the /bin director
           $ ls ../
        ```
        
-## Downloadable PDF [GitHub](https://drive.google.com/open?id=1EFYgDFmrbr0dYRzGsEO7E5vhZGFIGTAK)
+## [Downloadable PDF](https://drive.google.com/open?id=1EFYgDFmrbr0dYRzGsEO7E5vhZGFIGTAK)
