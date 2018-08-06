@@ -144,4 +144,29 @@ Environment variables are variables that can be used across commands and program
    $ echo $USER
 ```
    * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  a way to make the variable persist across programs.
-   * At the command line, the command echo $USER prints the value of the variable. Note that $ is always used when returning a variable's value. Here, the command echo $USER prints the name set for the variable.
+   * At the command line, the command echo $USER prints the value of the variable. **Note that $ is always used when we are using an environmental**. Here, the command echo $USER prints the name set for the variable.
+   
+<br />
+
+
+2. **PS1 variable**: PS1 is a variable that defines the makeup and style of the command prompt.
+``` terminal
+   $ export PS1="I am developer >> "
+   I am developer >> ls
+```
+export PS1="I am developer >> " will change the styling of your command prompt to this.
+<br />
+
+3. **HOME variable**: The HOME variable is an environment variable that displays the path of the home directory.
+``` terminal
+   $ echo $HOME
+```
+<br />
+
+4. **PATH variable**: PATH is an environment variable that stores a list of directories separated by colons(:). Each directory contains scripts for the command line to execute. The PATH variable simply lists those directories that contain scripts.
+``` terminal
+   $ echo $PATH
+```
+For example, many commands we've learned are scripts stored in the /bin directory. 
+> This is the script that is executed when you type the pwd command. /bin/pwd. 
+> This is the script that is executed when you type the ls command.  /bin/ls
