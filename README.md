@@ -21,7 +21,7 @@
 
 ### Now Understanding above commands or keywords and even more
 
-1. **pwd command**: pwd stands for 'print working directory'. It prints the current directory.
+1. **pwd command**: *pwd* stands for 'print working directory'. It prints the current directory.
     ``` terminal
        $ pwd
     ```
@@ -38,12 +38,12 @@
        $ ls -alhr
     ```
 
-1. **cd command**: cd stands for 'change directory' and helps us to change the directory.
+1. **cd command**: *cd* stands for 'change directory' and helps us to change the directory.
     ``` terminal
        $ cd games/
     ```
 
-1. **clear command**: clear is used to clear the console screen
+1. **clear command**: *clear* is used to clear the console screen
     ``` terminal
        $ clear
     ```
@@ -222,3 +222,18 @@ For example, many commands we've learned are scripts stored in the /bin director
 <br />
 
 > This is the script that is executed when you type the ls command.  /bin/ls
+
+
+### Some tips
+   * You can also use man command to know gain information about any command
+      ``` terminal
+         $ man cat
+      ```
+   * Single dot (.) in Unix or Linux is used for current directory
+      ``` terminal
+         $ ls .
+      ```
+   * Double dots (..) are used for one level up directory
+   ``` terminal
+      $ ls ../
+   ```
