@@ -27,14 +27,14 @@ another command.
 **ls command**: Display all the files and directories in the current directory.
 **-**: This is called as flag, we can add more specifications and properties to out commands using these flags like in case of *ls*. e.g.,
 
-''' terminal
+``` terminal
    ls -a -l -h -r 
-'''
+```
 This will print all the files and directories in the current directory but -a flag will help us to display the hidden files and directories, -l helps us to show detailed format, -r shows in reverse order and -h for units of memory > B for Bytes etc.
 
 **You can also do like:**
-''' terminal
+``` terminal
    ls -alhr
-'''
+```
 
 **Pipe(|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
