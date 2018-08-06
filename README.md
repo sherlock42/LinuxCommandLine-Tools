@@ -16,7 +16,7 @@
 7. **PS1** is the command prompt.
 8. **HOME** is the home directory. It is usually not customised.
 9. **PATH** returns a colon separated list of file paths. It is customised in advanced cases.
-10. **env** returns a list of environment variables.
+10. **env** returns a list of environment variables.__
     *e.g., env | grep PATH*
 
 ### Now Understanding above commands or keywords and even more
@@ -32,8 +32,7 @@ This will print all the files and directories in the current directory but -a fl
 **You can also do like:**
 ``` terminal
    ls -alhr
-```
-
+```__
 
 * **Pipe (|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
 
