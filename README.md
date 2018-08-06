@@ -116,8 +116,24 @@ but note one thing it will only replace the first snow word with rain if you wan
 ``` terminal
    $ sed 's/snow/rain/g' forests.txt
 ```
+<br />
+
+* **nano command**: nano is a command line text editor. It works just like a desktop text editor like TextEdit or Notepad, except that it is accessible from the command line and only accepts keyboard input. It can edit or create a new file for you.
+``` terminal
+   $ nano hello_world.js
+```
+**
+   1. Ctrl + O, saves a file, O stands for output
+   2. Ctrl + X, exits the nano program, X stands for exit
+   3. Ctrl + G, opens a help menu
+**
 
 <br />
+
+### Bash Profile file
+
+<br />
+
 
 ### Environment
 Each time we launch the terminal application, it creates a new session. The session immediately loads settings and preferences that make up the command line environment. We can configure the environment to support the commands and programs we create. This enables us to customise greetings and command aliases, and create variables to share across commands and
