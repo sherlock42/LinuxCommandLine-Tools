@@ -64,11 +64,13 @@
     ```
     renaming add.c to integer_add.c
     ![GitHub Logo](screenshots/mv rename.PNG)
+    
     ``` terminal
        $ mv add.c programs/
     ```
     moving add.c file to programs directory
     ![GitHub Logo](screenshots/mv move.PNG)
+    
     
 1. **cat command**: *cat* stands for 'concatenate and print files'. It displays all the content of a file.
     ``` terminal
@@ -179,6 +181,7 @@ I frequently use second one to reach my desktop easily by only pressing f
    $ alias show='defaults write com.apple.finder CreateDesktop true; killall Finder'
 ```
     ![GitHub Logo](/screenshots/alias.PNG)
+    
    * Using second command you can hide all your Desktop folders and files and no body will be able to see your stuff. You can undo this using third command. But this is only valid for Apple Mac users.
    **Note:** 
    * **alias cls = 'clear' is wrong only cls='clear' will work.**
@@ -198,6 +201,7 @@ programs.
    $ env
 ```
     ![GitHub Logo](/screenshots/env.PNG)
+    
 You can also try
 ``` terminal
    $ env | grep PATH
@@ -214,6 +218,7 @@ Some of the environment variables are given below, rest you can explore on your 
    $ echo $USER
 ```
     ![GitHub Logo](/screenshots/user.PNG)
+    
    * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  a way to make the variable persist across programs.
    * At the command line, the command echo $USER prints the value of the variable. **Note that $ is always used when we are using an environmental**. Here, the command echo $USER prints the name set for the variable.
    
@@ -227,6 +232,7 @@ Some of the environment variables are given below, rest you can explore on your 
 ```
 export PS1="I am developer >> " will change the styling of your command prompt to this.
     ![GitHub Logo](/screenshots/ps1.PNG)
+    
 <br />
 
 3. **HOME variable**: The HOME variable is an environment variable that displays the path of the home directory.
@@ -234,6 +240,7 @@ export PS1="I am developer >> " will change the styling of your command prompt t
    $ echo $HOME
 ```
     ![GitHub Logo](/screenshots/home.PNG)
+    
 <br />
 
 4. **PATH variable**: PATH is an environment variable that stores a list of directories separated by colons(:). Each directory contains scripts for the command line to execute. The PATH variable simply lists those directories that contain scripts.
