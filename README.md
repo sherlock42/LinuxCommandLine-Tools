@@ -141,7 +141,11 @@ bash_profile is the name of file used to store environment settings. It is commo
    1. The name ~/.bash_profile is important, since this is how the command line recognises the bash profile.
    1. The command nano ~/.bash_profile opens up ~/.bash_profile in nano.
    1. The text echo "Welcome, Jane Doe" creates a greeting in the bash profile, which is saved. It tells the command line to echo the string "Welcome, Jane Doe" when a terminal session begins.
-   1. The command source ~/.bash_profile activates the changes in ~/.bash_profile for the current session. Instead of closing the terminal and needing to start a new session, source makes the changes available right away in the session we are in.
+   1. The command source ~/.bash_profile activates the changes in ~/.bash_profile for the current session.
+``` terminal
+   source ~/.bash_profile
+```
+* Instead of closing the terminal and needing to start a new session, source makes the changes available right away in the session we are in.
 
 <br />
 
