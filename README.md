@@ -42,4 +42,32 @@ This will print all the files and directories in the current directory but -a fl
 
 <br />
 
-* **Next COmmand**: fa
+* **cp command**: *cp* is used to copy single or multiple files in current or another directory.
+``` terminal
+   cp add.c programs/
+```
+add.c file will be copied to programs directory which is present in current directory.
+
+<br />
+
+* **mv command**: *mv* is used to move or rename single or multiple files.
+``` terminal
+   mv add.c interger_add.c 
+```
+renaming add.c to integer_add.c
+``` terminal
+   mv add.c programs/
+```
+moving add.c file to programs directory
+
+<br />
+
+* **cat command**: *cat* displays all the content of a file.
+``` terminal
+   cat add.c
+```
+It can be also used for copying and creating a new file and if the file exists and still we are using cat command to copy content then the content of the new file will be deleted and the copied content will be there. Below if the new_add.c exists before then it's content will be deleted and it'll have the copied content of add.c file.
+``` terminal
+   cat add.c > new_add.c
+```
+
