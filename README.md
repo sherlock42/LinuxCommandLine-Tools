@@ -106,16 +106,16 @@
 
     **Let's look at the expression 's/snow/rain/':**
         <br />
-       * s: stands for "substitution". It is always used when using sed for substitution.
-       * snow: the search string, the text to find.
-       * rain: the replacement string, the text to add in place.
-    ``` terminal
-       $ sed 's/snow/rain/' forests.txt
-    ```
-    but note one thing it will only replace the first snow word with rain if you want to do it in the whole file then you have to use 
-    ``` terminal
-       $ sed 's/snow/rain/g' forests.txt
-    ```
+           * s: stands for "substitution". It is always used when using sed for substitution.
+           * snow: the search string, the text to find.
+           * rain: the replacement string, the text to add in place.
+        ``` terminal
+           $ sed 's/snow/rain/' forests.txt
+        ```
+        but note one thing it will only replace the first snow word with rain if you want to do it in the whole file then you have to use 
+        ``` terminal
+           $ sed 's/snow/rain/g' forests.txt
+        ```
 
 1. **nano command**: nano is a command line text editor. It works just like a desktop text editor like TextEdit or Notepad, except that it is accessible from the command line and only accepts keyboard input. It can edit or create a new file for you.
     ``` terminal
