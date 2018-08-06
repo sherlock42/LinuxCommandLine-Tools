@@ -31,9 +31,9 @@
 ``` terminal
    $ ls -a -l -h -r 
 ```
-   *This will print all the files and directories in the current directory but -a flag will help us to display the hidden  files and directories, -l helps us to show detailed format, -r shows in reverse order and -h for units of memory > B for Bytes etc.
+   * This will print all the files and directories in the current directory but -a flag will help us to display the hidden  files and directories, -l helps us to show detailed format, -r shows in reverse order and -h for units of memory > B for Bytes etc.
 
-*  **You can also do like:**
+   *  **You can also do like:**
 ``` terminal
    $ ls -alhr
 ```
