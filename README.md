@@ -26,6 +26,7 @@
    $ pwd
 ```
 
+
 1. **ls command**: *ls* stands for 'list directory content'. Display all the files and directories in the current directory.
 **-**: This is called as flag, we can add more specifications and properties to out commands using these flags like in case of *ls*. e.g.,
 ``` terminal
@@ -38,6 +39,7 @@
    $ ls -alhr
 ```
 <br />
+
 
 1. **cd command**: cd stands for 'change directory' and helps us to change the directory.
 ``` terminal
