@@ -218,10 +218,13 @@ Some of the environment variables are given below, rest you can explore on your 
        $ export USER="Farhan"
        $ echo $USER
     ```
+    ![GitHub Logo](/screenshots/ps1.PNG)
    * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  a way to make the variable persist across programs.
-   * At the command line, the command echo $USER prints the value of the variable. **Note that $ is always used when we are using an environmental**. Here, the command echo $USER prints the name set for the variable.
+   * At the command line, the command echo $USER prints the value of the variable.
+   <br />
+   
+   **Note that $ is always used when we are using an environmental**. Here, the command echo $USER prints the name set for the variable.
 
-![GitHub Logo](/screenshots/user.PNG] 
    
 2. **PS1 variable**: PS1 is a variable that defines the makeup and style of the command prompt.
     ``` terminal
