@@ -132,6 +132,16 @@ but note one thing it will only replace the first snow word with rain if you wan
 <br />
 
 ### Bash Profile file
+bash_profile is the name of file used to store environment settings. It is commonly called the "bash profile". When a session starts, it will load the contents of the bash profile before executing commands.
+``` terminal
+   nano ~/.bash_profile
+```
+   1. The ~ represents the user's home directory.
+   1. The . indicates that this file hidden file. A dot is used for hidden file
+   1. The name ~/.bash_profile is important, since this is how the command line recognises the bash profile.
+   1. The command nano ~/.bash_profile opens up ~/.bash_profile in nano.
+   1. The text echo "Welcome, Jane Doe" creates a greeting in the bash profile, which is saved. It tells the command line to echo the string "Welcome, Jane Doe" when a terminal session begins.
+   1. The command source ~/.bash_profile activates the changes in ~/.bash_profile for the current session. Instead of closing the terminal and needing to start a new session, source makes the changes available right away in the session we are in.
 
 <br />
 
