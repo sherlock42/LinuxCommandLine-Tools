@@ -21,7 +21,7 @@
 
 ### Now Understanding above commands or keywords and even more
 
-1. **pwd command**: pwd stands for 'print working directory'. It prints the current directory.
+1.  **pwd command**: pwd stands for 'print working directory'. It prints the current directory.
 ``` terminal
    $ pwd
 ```
