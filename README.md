@@ -257,6 +257,6 @@ For example, many commands we've learned are scripts stored in the /bin director
          $ ls .
       ```
    * Double dots (..) are used for one level up directory
-   ``` terminal
-      $ ls ../
-   ```
+       ``` terminal
+          $ ls ../
+       ```
