@@ -105,6 +105,7 @@
     <br />
 
     **Let's look at the expression 's/snow/rain/':**
+        <br />
        * s: stands for "substitution". It is always used when using sed for substitution.
        * snow: the search string, the text to find.
        * rain: the replacement string, the text to add in place.
