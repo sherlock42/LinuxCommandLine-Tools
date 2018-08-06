@@ -254,8 +254,8 @@ For example, many commands we've learned are scripts stored in the /bin director
     ![GitHub Logo](/screenshots/path.PNG)
 
 ## Some tips
-   * **Linux or Unix File System**
-   ![GitHub Logo](/screenshots/linux-file-system.jpg)
+   **Linux or Unix File System**
+       ![GitHub Logo](/screenshots/linux-file-system.jpg)
    * You can also use man command to know gain information about any command
       ``` terminal
          $ man cat
