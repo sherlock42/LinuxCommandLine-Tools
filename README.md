@@ -1,13 +1,10 @@
 # Command-Line-Guide
 
 ### Symbols and Uses
-1. **>** redirects standard output of a command
-to a file, overwriting previous content.
-2. **>>** redirects standard output of a command
-to a file, appending new content to old content.
+1. **>** redirects standard output of a command to a file, overwriting previous content.
+2. **>>** redirects standard output of a command to a file, appending new content to old content.
 3. **<** redirects standard input to a command.
-4. **|** redirects standard output of a command to
-another command.
+4. **|** redirects standard output of a command to another command.
 
 ### Some General terms and keywords
 1. **sort**: sorts lines of text alphabetically.
@@ -37,4 +34,6 @@ This will print all the files and directories in the current directory but -a fl
    ls -alhr
 ```
 
+
 * **Pipe (|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
+
