@@ -125,6 +125,7 @@ but note one thing it will only replace the first snow word with rain if you wan
    1. Ctrl + O, saves a file, O stands for output
    2. Ctrl + X, exits the nano program, X stands for exit
    3. Ctrl + G, opens a help menu
+*Similarly, there is vim which can be accessed by vi command but it is operated differently*
 
 <br />
 
