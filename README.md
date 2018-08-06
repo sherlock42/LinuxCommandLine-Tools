@@ -214,10 +214,10 @@ Environment variables are variables that can be used across commands and program
 Some of the environment variables are given below, rest you can explore on your own.
 
 1. **USER variable**: export USER="Farhan" sets the environment variable USER to a name "Farhan". Usually the USER variable is set to the name of the Computer's owner.
-``` terminal
-   $ export USER="Farhan"
-   $ echo $USER
-```
+    ``` terminal
+       $ export USER="Farhan"
+       $ echo $USER
+    ```
 ![GitHub Logo](/screenshots/user.PNG] 
 
    * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  a way to make the variable persist across programs.
@@ -227,19 +227,19 @@ Some of the environment variables are given below, rest you can explore on your 
 
 
 2. **PS1 variable**: PS1 is a variable that defines the makeup and style of the command prompt.
-``` terminal
-   $ export PS1="I am developer >> "
-   I am developer >> ls
-```
+    ``` terminal
+       $ export PS1="I am developer >> "
+        I am developer >> ls
+    ```
 export PS1="I am developer >> " will change the styling of your command prompt to this.
-    ![GitHub Logo](/screenshots/ps1.PNG)
+![GitHub Logo](/screenshots/ps1.PNG)
     
 
 3. **HOME variable**: The HOME variable is an environment variable that displays the path of the home directory.
-``` terminal
-   $ echo $HOME
-```
-    ![GitHub Logo](/screenshots/home.PNG)
+    ``` terminal
+       $ echo $HOME
+    ```
+![GitHub Logo](/screenshots/home.PNG)
     
 
 4. **PATH variable**: PATH is an environment variable that stores a list of directories separated by colons(:). Each directory contains scripts for the command line to execute. The PATH variable simply lists those directories that contain scripts.
