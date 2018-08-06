@@ -70,4 +70,4 @@ It can be also used for copying and creating a new file and if the file exists a
 ``` terminal
    cat add.c > new_add.c
 ```
-
+**If you want contents of both files then use >> operator instead of >**
