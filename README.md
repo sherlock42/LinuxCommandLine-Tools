@@ -146,6 +146,8 @@ bash_profile is the name of file used to store environment settings. It is commo
    $ source ~/.bash_profile
 ```
 * Instead of closing the terminal and needing to start a new session, source makes the changes available right away in the session we are in.
+<br />
+
 **Note:** *Similarly, there is .bashrc file which is available in some computers. You can use anyone of them just make sure which file dominates.*
 
 <br />
