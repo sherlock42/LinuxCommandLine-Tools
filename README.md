@@ -172,11 +172,12 @@ bash_profile is the name of file used to store environment settings. It is commo
 
 ### Aliases
 You can create shortcuts using alias command for long and frequently used commands and then you can use the small keywords instead of writing a long command and of course you can separate multiple commands using semicolons(;) like in second example.
+* I frequently use second one to reach my desktop easily by only pressing f
 ``` terminal
    $ alias cls='clear'
    $ alias f='cd ~/Desktop/'
 ```
-I frequently use second one to reach my desktop easily by only pressing f
+
 ``` terminal
    $ alias hide='defaults write com.apple.finder CreateDesktop false; killall Finder'
    $ alias show='defaults write com.apple.finder CreateDesktop true; killall Finder'
@@ -184,6 +185,8 @@ I frequently use second one to reach my desktop easily by only pressing f
 ![GitHub Logo](/screenshots/alias.PNG)
     
    * Using second command you can hide all your Desktop folders and files and no body will be able to see your stuff. You can undo this using third command. But this is only valid for Apple Mac users.
+   <br />
+   
    **Note:** 
    * **alias cls = 'clear' is wrong only cls='clear' will work.**
    * **You can save all your aliases into bash_profile file if you want to make them permanent.**
