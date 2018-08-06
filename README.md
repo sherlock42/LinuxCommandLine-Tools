@@ -23,24 +23,23 @@
 
 * **pwd command**: pwd stands for 'print working directory'. It prints the current directory.
 ``` terminal
-   $pwd
+   $ pwd
 ```
 
-* **ls command**: Display all the files and directories in the current directory.
+* **ls command**: *ls* stands for 'list directory content'. Display all the files and directories in the current directory.
 **-**: This is called as flag, we can add more specifications and properties to out commands using these flags like in case of *ls*. e.g.,
-
 ``` terminal
    $ ls -a -l -h -r 
 ```
-This will print all the files and directories in the current directory but -a flag will help us to display the hidden files and directories, -l helps us to show detailed format, -r shows in reverse order and -h for units of memory > B for Bytes etc.
+   *This will print all the files and directories in the current directory but -a flag will help us to display the hidden  files and directories, -l helps us to show detailed format, -r shows in reverse order and -h for units of memory > B for Bytes etc.
 
-**You can also do like:**
+*  **You can also do like:**
 ``` terminal
    $ ls -alhr
 ```
 <br />
 
-* **cd command**: cd stands for change directory and helps us to change the directory.
+* **cd command**: cd stands for 'change directory' and helps us to change the directory.
 ``` terminal
    $ cd games/
 ```
@@ -71,7 +70,7 @@ moving add.c file to programs directory
 
 <br />
 
-* **cat command**: *cat* displays all the content of a file.
+* **cat command**: *cat* stands for 'concatenate and print files'. It displays all the content of a file.
 ``` terminal
    $ cat add.c
 ```
