@@ -214,10 +214,10 @@ Environment variables are variables that can be used across commands and program
 Some of the environment variables are given below, rest you can explore on your own.
 
 1. **USER variable**: export USER="Farhan" sets the environment variable USER to a name "Farhan". Usually the USER variable is set to the name of the Computer's owner.
-``` terminal
-   $ export USER="Farhan"
-   $ echo $USER
-```
+    ``` terminal
+       $ export USER="Farhan"
+       $ echo $USER
+    ```
 ![GitHub Logo](/screenshots/user.PNG] 
 
    * The line export makes the variable to be available to all child sessions initiated from the session you are in. This is  a way to make the variable persist across programs.
