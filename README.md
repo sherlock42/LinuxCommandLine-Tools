@@ -21,6 +21,11 @@
 
 ### Now Understanding above commands or keywords and even more
 
+* **pwd command**: pwd stands for 'print working directory'. It prints the current directory.
+``` terminal
+   $pwd
+```
+
 * **ls command**: Display all the files and directories in the current directory.
 **-**: This is called as flag, we can add more specifications and properties to out commands using these flags like in case of *ls*. e.g.,
 
@@ -35,11 +40,16 @@ This will print all the files and directories in the current directory but -a fl
 ```
 <br />
 
-* **Pipe (|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
+* **cd command**: cd stands for change directory and helps us to change the directory.
 ``` terminal
-   $ env | grep PATH
+   $ cd games/
 ```
+<br />
 
+* **clear command**: clear is used to clear the console screen
+``` terminal
+   $ clear
+```
 <br />
 
 * **cp command**: *cp* is used to copy single or multiple files in current or another directory.
@@ -47,7 +57,6 @@ This will print all the files and directories in the current directory but -a fl
    $ cp add.c programs/
 ```
 add.c file will be copied to programs directory which is present in current directory.
-
 <br />
 
 * **mv command**: *mv* is used to move or rename single or multiple files.
@@ -86,6 +95,12 @@ It can be also used for copying and creating a new file and if the file exists a
    $ sort names.txt
 ```
 
+<br />
+
+* **Pipe (|)**: Pipe ‘|’ this takes the command as standard output on the left of it and pipes it as a standard input to the command on its right.
+``` terminal
+   $ env | grep PATH
+```
 <br />
 
 * **uniq command**: uniq stands for "unique" and filters out only adjacent, duplicate lines in a file and hence it will not remove those repeating lines which are not adjacent and are coming after some lines so to overcome this we can first sort the lines and then use the uniq command if we don’t want even a single line repeated.
