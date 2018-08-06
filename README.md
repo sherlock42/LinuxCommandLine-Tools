@@ -1,4 +1,4 @@
-# Command-Line-Guide
+# Unix and Linux Command Line Tools
 
 ### Symbols and Uses
 1. **>** redirects standard output of a command to a file, overwriting previous content.
