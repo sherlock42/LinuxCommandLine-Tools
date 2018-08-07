@@ -258,7 +258,7 @@ For example, many commands we've learned are scripts stored in the /bin director
 
 ## Some tips
    ![GitHub Logo](/screenshots/linux-file-system.jpg)
-   * You can also use man command to know gain information about any command
+   * You can also use man command to know or gain information about any command including the flags that you can use with that command.
       ``` terminal
          $ man cat
       ```
